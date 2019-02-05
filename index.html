@@ -17,50 +17,21 @@
         </div>
     </div>
   <img src="./Picture.JPG" Width="100" Height="200">
+  <label for="yay-input"></label>
+ <input
+name="yay-input" 
+type="text" 
+id="yay-input"
+placeholder="this is a placeholder"
+>
   <button id="btn-yay">
-  Click this button
-  </button>
-  <script type="text/javascript">
-  document.addEventListener('DOMContentLoaded', function() {
-    console.log("loaded")
-  })
-  document
-  .getElementById('btn-yay')
-  .addEventListener('click', function() {
-    console.log('clicked')
-  })
+  Add items
+</button>
 
-        // document.getElementById();
-        // constant NEVER CHANGES
-        // const PI = 3.14
-        // let is blocked scoped
-        // let travelTime = 30
-        // var is globally scoped
-        // var world = "world"
-        //termary operator
-        // let truth = true ? "do thing1" : "do thing2";
-        // let falsey = false;
-        // let arr = ["thing", 1, 2.0, [1, 2, 3]]
-        // console.log(arr)
-        // function name declaration
-        // function superAwesomeName () {
-        // console.log("Super Awesome Name")
-        //   }
-        //   superAwesomeName()
-        // let myFamilyPet = {
-        //   type : "bunny",
-        //   name : "moosie",
-        //   furColor : "black",
-        //   locomotion : function () {
-        //       return "hop hop hop"
-        //   },
-        // }
-        // console.log(myFamilyPet)
-          // let arr = ["thing", 1, 2.0, [1, 2, 3]]
-          // for (var i = 0; i < arr.length; i++) {
-          //   arr[1]
-          // }
+<h2> Things to do: </h2>
+<ul id="things-list">
 
-  </script>
+</ul>
+<script src="index.js" charset="utf-8"></script>
   </body>
 </html>
